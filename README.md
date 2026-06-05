@@ -105,7 +105,7 @@ def compute_sad_cost_volume(img_l, img_r, max_disp=64, win=7):
 
 <img width="1800" height="500" alt="output_phase2_sad" src="https://github.com/user-attachments/assets/2689e404-84f6-44f2-80af-d2dd2937a69b" />
 
-### Phase 2 — RAFT-Stereo 추론
+### Phase 3 — RAFT-Stereo 추론
 
 pretrained RAFT-Stereo (raftstereo-middlebury.pth)로 추론하여 EPE **4.16px** 달성.  
 전통 알고리즘 대비 약 **40배** 낮은 오차입니다.
